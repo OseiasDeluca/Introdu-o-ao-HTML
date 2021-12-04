@@ -1,2 +1,4 @@
 # Introdu-o-ao-HTML
-Introdução de sintaxe e tags.
+Introdução as tags de HTML e CSS.
+
+Guia prático com respostas.
