@@ -1,0 +1,76 @@
+#title{
+    font-family: Verdana; /*Podemos usar fontes da web, mas vamos tuilizar as 'web-safe-points', pois sõa encotradas em todos dispositivos*/
+}
+
+.post_title{
+    font-family: Verdana, Arial; /* Add 2 fontes, caso uma não funcione, entra a outra(bakup)*/
+}
+
+/*FONT-SIZE*/
+
+/*Utilizado para alteração do tamanho do nosso texto */
+
+#title {
+    font-size: 30px;
+}
+
+.post_title{
+    font-size: 18px;
+}
+
+/*FONT-STYLE*/
+
+/*Altera a aparência do nosso texto*/
+
+#title {
+    font-style: normal;
+}
+
+.subtitle{
+    font-style: italic;
+}
+
+
+/*FONT-WEIGHT*/ 
+
+/*Alteração do "peso" do texto, é utilizado para fontes mais complexas*/
+
+#title {
+    font-style: normal;
+}
+
+.subtitle{
+    font-style: italic;
+}
+
+/*TEXT-TRANSFORM*/
+
+/* Alteração do texto uppercase(Maiúscula), lowercase(Minúscula), capitalize(coloca todas as primeiras letras em maiúscula */
+
+#title {
+    text-transform: uppercase;
+}
+
+.subtitle{
+    text-transform: lowercase;
+}
+.post_title{
+    text-transform: capitalize;
+}
+
+
+/*TEXT-DECORATION*/
+
+/*Usado para dar destaque aos textos*/
+
+#title{
+    text-decoration: underline;
+}
+
+.subtitle{
+    text-decoration: overline;
+}
+
+.post_title{
+    text-decoration: line-through;
+}

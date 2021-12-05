@@ -1,0 +1,102 @@
+/*IMPORTANTE RESSALTAR QUE ESSE CÓDIGO CSS FOI FEITO UTILIZANDO UA CLASSE ESPECÍFICA, LEMNREM-SE DE ALTERAR A CLASSE!*/
+
+
+/*DICAS E CÓDIGO DE ESTELIZAÇÃO*/
+
+
+/* Adicionar cores e bordas para visualização melhor do box-model (Botão direito, inspecionar no navegador) */
+
+.post {
+    background: white; 
+    padding: 15px 10px 5px;  /* Espaçamento entre o artigo e a borda*/ 
+    border: 3px solid #000;
+    margin: 15px; /* Espaçamento entre elementos*/
+}
+
+-----------------------------------------------------------------------------------------------------------
+
+/* Padding e Margin */
+.post {
+    padding: 10px 5px; /*10px= eixo Y (superior/inferior) | 5px = eixo X (direita/esquerda)*/
+}
+
+.post {
+    padding: 15px 10px 5px 0; /* Um valor para cada lado*/
+}
+
+.post{
+
+    padding-top: 15px; /*Topo*/
+    padding-right: 10px; /*Direita*/
+    padding-bottom: 5px; /*Baixo*/
+    padding-left: 0px; /*Esquerda*/
+}
+-----------------------------------------------------------------------------------------------------------
+
+/*Background*/
+
+ .post{
+     background-color: green; /* Muda cor do fundo*/
+     background-image: url("bg.png"); /**COlocar um imagem*/
+     background-position: top; /* Mudar aa posição*/ 
+ }
+
+ .post{
+    background-color: green; /*Utlizar a cor*/
+    background-color: #008800; /*Utilizar o código*/
+    background: #008800;/*Atalho, mão necessita da utilização do '-color'*/
+}
+-----------------------------------------------------------------------------------------------------------
+
+/*Border*/
+
+/* 
+Largura: Pixels, Centímetros, milímetros...
+Cor: blue, #0000ff...
+Estilo: solída, pontilhada, tracejada...
+*/
+
+.post{
+    border: 3px solid blue; /*Solida*/
+    border-top: 2px dotted green; /*Pontilhada*/
+    border-right: 4px dashed pink;/*Tracejada*/
+}
+-----------------------------------------------------------------------------------------------------------
+
+/*Separando a estilização de cada lado*/
+
+.post {
+
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+
+}
+
+/*Se não quiser usar a propriedade border, pode usar as propriedades especificas para cada aspecto da borda*/
+
+.post {
+    border: 3px solid #505050;
+} /* Esse é um atalho*/
+
+.post{
+    border-width: 3px; /*Para largura*/
+    border-color: #505050;/*Para cor*/
+    border-style: solid;/*Para contorno da borda*/
+} /*Esse é com as propriedades especificadas*/
+
+.post{
+    border-top-width: 3px; /*Mudando aspecto somente da borda superior*/
+    border-top-color: blue;
+    border-top-style: solid;
+} /* Criamos uma regra mais específica ainda, juntando lados, com aspectos. Adicionamos o lado que queremos mudar, depois da paralavra 'border'*/
+
+/*Border-radius*/
+
+.post{
+    border-radius: 10px;
+    border-radius: 50%;
+    border-radius: 10% 20%;
+    border-radius: 10% 20% 15% 22%;
+} /*borda com raios*/

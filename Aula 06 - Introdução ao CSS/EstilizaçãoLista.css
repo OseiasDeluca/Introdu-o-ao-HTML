@@ -1,0 +1,16 @@
+/* LIST-STYLE-TYPE */
+ul {
+    list-style-type: square; /* transforma marcador em quadrado. */
+}
+
+ol {
+    list-style-type: upper-roman; /* Transorma em algarismo romano e tudo maiúscula*/
+}
+
+ul{ 
+    list-style-type: "\1F44D"; /*tRTransformando marcador em um simbolo. */
+}
+
+ul {
+    list-style-image: url(""); /*Transformando marcador em imagem*/
+}
